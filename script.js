@@ -16,6 +16,16 @@ $(document).keypress(function() {
 });
 
 $(".btn").click(function() {
+  if (!started) {
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
+  // Add any additional code you want to execute when a button is clicked
+});
+
+
+$(".btn").click(function() {
 
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
