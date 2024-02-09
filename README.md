@@ -3,6 +3,7 @@
 
 ![Simon](images/Screenshot_2024-02-09_211139.png)
 
+
 # Simon Game
 
 Welcome to the classic Simon Game - a test of memory and reflexes!
